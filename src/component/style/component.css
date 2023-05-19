@@ -1,0 +1,51 @@
+:root {
+  --slice-text: #c1694e;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+.text-logo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.slice-text-logo {
+  color: var(--slice-text);
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+.item {
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+.item:hover {
+  font-size: 1.4rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.inputPanel {
+  border-bottom: 1px solid #000;
+  background: none;
+  outline: none;
+  width: 100px;
+  transition: 0.3s;
+}
+
+.inputPanel:focus {
+  width: 300px;
+  transition: 0.3s;
+}
+
+#chart {
+  font-size: 1.3rem;
+}
